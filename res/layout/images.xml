@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg">
+    
+    <GridView  
+        android:layout_width="fill_parent" 
+	    android:numColumns="auto_fit"
+	    android:horizontalSpacing="5dp"
+	    android:stretchMode="columnWidth"
+	    android:gravity="center"
+    android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/grid" android:columnWidth="90dp" android:verticalSpacing="25dp" android:paddingTop="10px">
+
+</GridView><LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent"><ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/b_previous" android:src="@drawable/previous"></ImageButton><Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/camera" android:layout_weight="1" android:drawableLeft="@android:drawable/ic_menu_camera" android:text="@string/new_photo"></Button>
+
+<ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/b_next" android:src="@drawable/next"></ImageButton>
+
+</LinearLayout>
+    
+    
+</LinearLayout>

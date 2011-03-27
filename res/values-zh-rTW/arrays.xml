@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="select_route_actions">
+        <item>顯示</item>
+        <item>編輯</item>
+        <item>與好友分享</item>
+        <item>寫入SD卡</item>
+        <item>簡化追蹤</item>
+        <item>檢視更多資料</item>
+        <item>移除</item>
+    </string-array>
+    
+    <string-array name="select_backup_actions">
+        <item>備份</item>
+        <item>恢復</item>
+    </string-array>
+    
+   <string-array name="filter_date">
+        <item>今天</item>
+        <item>3天前</item>
+        <item>上週</item>
+        <item>上個月</item>
+    </string-array>
+    
+    <string-array name="filter_order">
+    	<item>依日期</item>
+        <item>按名稱</item>
+        <item>按速度</item>
+        <item>按距離</item>
+        <item>按時間</item>
+    </string-array>
+    
+   <string-array name="select_group_actions">
+        <item>建立新的</item>
+        <item>編輯名稱</item>
+        <item>移除</item>
+    </string-array>
+    
+    <string-array name="select_route_export">
+        <item>KML檔案</item>
+        <item>KMZ檔案(圖片)</item>
+        <item>GPX檔案</item>
+        <item>AndAndo檔案</item>
+    </string-array>
+    
+    <string-array name="select_route_import">
+        <item>從KML檔案</item>
+        <item>從AndAndo檔案</item>
+    </string-array>
+    
+    <string-array name="select_type_image">
+        <item>使用相機 (512x384)</item>
+        <item>搜尋SD卡</item>
+    </string-array>
+    
+    <string-array name="entries_prf_units">
+        <item>公里</item>
+        <item>英里</item>
+    </string-array>
+    
+    <string-array name="entryvalues_prf_units">
+        <item>km</item>
+        <item>mph</item>
+    </string-array>
+    
+    <string-array name="entries_prf_time_gps">
+    	<item>依跟蹤類型 (建議)</item>
+        <item>1 秒</item>
+        <item>2 秒</item>
+        <item>5 秒</item>
+        <item>10 秒</item>    
+    </string-array>
+
+    <string-array name="entryvalues_prf_time_gps">
+    	<item>0</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>5000</item>
+        <item>10000</item> 
+    </string-array>
+    
+    <string-array name="entries_prf_distance_gps">
+    	<item>依跟蹤類型 (建議)</item>
+        <item>1 米</item>
+        <item>3 米</item>
+        <item>5 米</item>
+        <item>10 米</item>
+        <item>25 米</item>
+        <item>50 米</item>      
+    </string-array>
+
+    <string-array name="entryvalues_prf_distance_gps">
+    	<item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>25</item>
+        <item>50</item> 
+    </string-array>
+    
+    <string-array name="entries_every_distance">
+        <item>每 50 米</item>
+        <item>每 100 米</item>
+        <item>每 200 米</item>
+        <item>每 250 米</item>
+        <item>每 500 米</item>
+        <item>每公里</item>
+        <item>每 2 公里</item>
+        <item>每 3 公里</item>
+        <item>每 5 公里</item>
+        <item>每 10 公里</item>      
+    </string-array>
+
+    <string-array name="entryvalues_every_distance">
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+        <item>250</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>5000</item>
+        <item>10000</item> 
+    </string-array>
+    
+    <string-array name="entries_every_time">
+        <item>每分鐘</item>
+        <item>每 2 分鐘</item>
+        <item>每 2.5 分鐘</item>
+        <item>每 3 分鐘</item>
+        <item>每 5 分鐘</item>
+        <item>每 10 分鐘</item>
+        <item>每 20 分鐘</item>
+        <item>每 30 分鐘</item>
+        <item>每小時</item>     
+    </string-array>
+
+    <string-array name="entryvalues_every_time">
+        <item>60</item>
+        <item>120</item>
+        <item>150</item>
+        <item>180</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1200</item>
+        <item>1800</item>
+        <item>3600</item>
+    </string-array>
+    
+    <string-array name="entries_accuracy_gps">
+    	<item>Not use</item>
+        <item>5 米</item>
+        <item>10 米</item>
+        <item>20 米</item>
+        <item>30 米</item>
+        <item>40 米</item>
+        <item>50 米</item>
+        <item>75 米</item>
+        <item>100 米</item>
+        <item>150 米</item>
+    </string-array>
+
+    <string-array name="entryvalues_accuracy_gps">
+    	<item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>150</item>
+    </string-array>
+    
+</resources>

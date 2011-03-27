@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent" android:background="@drawable/bg" android:layout_width="fill_parent" android:orientation="horizontal">
+
+	<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+			android:layout_height="fill_parent" android:id="@+id/frame_layout" android:layout_width="fill_parent">
+			
+		<LinearLayout android:id="@+id/LinearLayout04" android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical">
+			<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1" android:id="@+id/map_container">
+			</LinearLayout>
+			<LinearLayout android:layout_width="fill_parent" android:layout_height="60px" android:background="#768d91" android:gravity="center_vertical|right" android:orientation="horizontal" android:paddingRight="10px" android:visibility="visible" android:id="@+id/ll_info">
+				<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:orientation="vertical" android:layout_height="fill_parent" android:minWidth="60px" android:gravity="center">
+					<TextView android:layout_height="wrap_content" android:textColor="#dddddd" android:text="0" android:layout_width="fill_parent" android:gravity="center" android:textSize="18px" android:id="@+id/pointsroute"></TextView>
+					<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center" android:textSize="10px" android:id="@+id/pointsroute_unit" android:text="@string/locations"></TextView>
+				</LinearLayout>
+				<ImageView android:id="@+id/ImageView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sep"></ImageView>
+				<TextView android:layout_height="wrap_content" android:text="00'' 00'" android:layout_width="wrap_content" android:gravity="center" android:textSize="32px" android:minWidth="130px" android:id="@+id/time"></TextView>
+				<ImageView android:id="@+id/ImageView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sep"></ImageView>
+				<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:orientation="vertical" android:layout_height="fill_parent" android:minWidth="60px" android:gravity="center">
+					<TextView android:layout_height="wrap_content" android:id="@+id/distanceroute" android:textColor="#dddddd" android:text="0" android:layout_width="fill_parent" android:gravity="center" android:textSize="18px"></TextView>
+					<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center" android:text="metros" android:id="@+id/distanceroute_unit" android:textSize="10px"></TextView>
+				</LinearLayout>
+			
+			</LinearLayout>
+		</LinearLayout>
+
+		<LinearLayout android:id="@+id/LinearLayout03" android:layout_width="fill_parent" android:layout_gravity="bottom" android:gravity="bottom" android:layout_height="150px"><ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bg_bt" android:id="@+id/bt_info"></ImageView>
+
+			<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/text_info" android:layout_marginLeft="10px" android:layout_weight="1" android:layout_gravity="top" android:text="Texto" android:layout_marginTop="100px" android:textColor="#ffffff" android:textSize="14px" android:visibility="gone"></TextView>
+			<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/photo" android:visibility="gone" android:paddingLeft="3px" android:paddingRight="3px" android:paddingTop="3px" android:layout_marginRight="7px" android:paddingBottom="12px" android:background="@drawable/bg_polaroid" android:layout_marginBottom="4px"></ImageView>
+			
+			<ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/button" android:src="@drawable/menu_play" android:layout_marginBottom="12px" android:visibility="gone"></ImageButton>
+		</LinearLayout>
+		
+		<LinearLayout android:id="@+id/ll_photo" android:layout_width="fill_parent" android:layout_height="fill_parent" 
+				android:visibility="gone" android:background="#dd000000" android:clickable="true" android:gravity="center">
+			<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/img_photo"></ImageView>
+		</LinearLayout>
+		
+
+	</FrameLayout>
+
+
+</LinearLayout>

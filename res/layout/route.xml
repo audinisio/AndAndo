@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@drawable/bg">
+
+	<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent" android:id="@+id/frame_layout">
+			
+		<LinearLayout android:id="@+id/LinearLayout04" android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical">
+			<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1" android:id="@+id/map_container"></LinearLayout><LinearLayout android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="60px" android:background="#768d91" android:gravity="center" android:orientation="horizontal">
+				<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:orientation="vertical" android:layout_height="fill_parent" android:minWidth="60px" android:gravity="center">
+					<TextView android:layout_height="wrap_content" android:id="@+id/speedroute" android:textColor="#dddddd" android:text="0" android:layout_width="fill_parent" android:gravity="center" android:textSize="18px"></TextView>
+					<TextView android:layout_height="wrap_content" android:text="km/h" android:layout_width="fill_parent" android:gravity="center" android:id="@+id/speedroute_unit" android:textSize="10px"></TextView>
+				</LinearLayout>
+				<ImageView android:id="@+id/ImageView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sep"></ImageView>
+				<Chronometer android:id="@+id/chronometer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textSize="32px" android:minWidth="90px"></Chronometer>
+				<ImageView android:id="@+id/ImageView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sep"></ImageView>
+				<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:orientation="vertical" android:layout_height="fill_parent" android:minWidth="60px" android:gravity="center">
+					<TextView android:layout_height="wrap_content" android:id="@+id/distanceroute" android:textColor="#dddddd" android:text="0" android:layout_width="fill_parent" android:gravity="center" android:textSize="18px"></TextView>
+					<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center" android:text="metros" android:id="@+id/distanceroute_unit" android:textSize="10px"></TextView>
+				</LinearLayout>
+			
+			</LinearLayout>
+		</LinearLayout>
+
+		<LinearLayout android:id="@+id/LinearLayout03" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_gravity="bottom"><ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bt_play" android:id="@+id/bt_play"></ImageView>
+			<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"></TextView><ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bt_back" android:id="@+id/bt_end"></ImageView>
+		</LinearLayout>
+
+	</FrameLayout>
+
+</LinearLayout>

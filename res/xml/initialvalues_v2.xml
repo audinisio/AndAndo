@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<values>
+
+	<row table="categories" id="1" action="update">
+		<field name="position" value="1" />
+	</row>
+	
+	<row table="categories" id="2" action="update">
+		<field name="position" value="2" />
+	</row>
+	
+	<row table="categories" id="3" action="update">
+		<field name="position" value="3" />
+	</row>
+	
+	<row table="categories" id="4" action="update">
+		<field name="position" value="4" />
+	</row>
+	
+	<row table="categories" id="5" action="update">
+		<field name="position" value="5" />
+	</row>
+	
+	<row table="categories" id="6" action="update">
+		<field name="position" value="6" />
+	</row>
+		
+	<row table="categories" id="7" action="update">
+		<field name="position" value="9" />
+	</row>
+	
+	<row table="categories" id="8">
+		<field name="name" value="skates" />
+		<field name="default_time_gps" value="2" />
+		<field name="default_distance_gps" value="10" />
+		<field name="position" value="7" />
+	</row>
+	
+	<row table="categories" id="9">
+		<field name="name" value="skateboard" />
+		<field name="default_time_gps" value="2" />
+		<field name="default_distance_gps" value="10" />
+		<field name="position" value="8" />
+	</row>
+		
+</values>

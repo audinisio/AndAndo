@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.javielinux.andando"
+      android:installLocation="auto" android:versionCode="19" android:versionName="1.40">
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />  
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+    	<uses-library android:name="com.google.android.maps" />
+        <activity android:name=".Andando"
+                  android:label="@string/app_name" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    	<activity android:name="RouteEdit"></activity>
+		<activity android:name="RoutesList"></activity>
+		<activity android:name="CreateRoute" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.PICK" />
+                <action android:name="android.settings.LOCATION_SOURCE_SETTINGS"/>
+                <!-- 
+                <category android:name="android.intent.category.DEFAULT" />
+                 -->
+            </intent-filter>
+		</activity>
+		
+		<activity android:name="ShowRoute" android:screenOrientation="portrait"></activity>
+		<activity android:name="ViewInfoGeneral"></activity>
+		<activity android:name="Preferences"></activity>
+		<activity android:name="org.achartengine.GraphicalActivity" />
+		<service android:name="ServiceGPS" />
+		<service android:name="ServiceShowGPS" />
+		
+		<activity android:name="TabViewInfo"></activity>
+		<activity android:name="ViewInfoSpeed"></activity>
+		<activity android:name="ViewInfoChart"></activity>
+
+</application>
+
+<uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+
+<uses-sdk android:minSdkVersion="4" android:targetSdkVersion="8" />
+
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+
+<supports-screens android:anyDensity="false" android:largeScreens="true" android:normalScreens="true" android:smallScreens="true" />
+
+</manifest> 

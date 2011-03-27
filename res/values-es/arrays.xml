@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="select_route_actions">
+        <item>Mostrar</item>
+        <item>Editar</item>
+        <item>Compartir archivo</item>
+        <item>Subir a YourTrainings.com</item>
+        <item>Compartir enlace</item>
+        <item>Grabar en SD Card</item>
+        <item>Simplificar ruta</item>
+        <item>Ver más datos</item>
+        <item>Recalcular totales</item>
+        <item>Borrar</item>
+    </string-array>
+    
+    <string-array name="select_backup_actions">
+        <item>Hacer copia</item>
+        <item>Restaurar copia</item>
+    </string-array>
+        
+   <string-array name="filter_date">
+        <item>Hoy</item>
+        <item>Desde hace 3 días</item>
+        <item>La última semana</item>
+        <item>Último mes</item>
+    </string-array>
+    
+    <string-array name="filter_order">
+    	<item>Por fecha</item>
+        <item>Por nombre</item>
+        <item>Por velocidad</item>
+        <item>Por distancia</item>
+        <item>Por tiempo</item>
+    </string-array>
+    
+    <string-array name="select_group_actions">
+        <item>Crear nuevo</item>
+        <item>Editar nombre</item>
+        <item>Eliminar</item>
+    </string-array>
+    
+    <string-array name="select_route_export">
+        <item>Formato KML</item>
+        <item>Formato KMZ (con fotos)</item>
+        <item>Formato GPX</item>
+        <item>Formato AndAndo</item>
+    </string-array>
+    
+    <string-array name="select_route_import">
+        <item>Desde formato KML</item>
+        <item>Desde formato AndAndo</item>
+    </string-array>
+    
+    <string-array name="select_type_image">
+        <item>Usar cámara (512x384)</item>
+        <item>Buscar en SD Card</item>
+    </string-array>
+    
+    <string-array name="entries_prf_units">
+        <item>Kilometros</item>
+        <item>Millas</item>
+    </string-array>
+    
+    <string-array name="entryvalues_prf_units">
+        <item>km</item>
+        <item>mph</item>
+    </string-array>
+    
+    <string-array name="entries_prf_time_gps">
+    	<item>Según tipo de ruta (recomendado)</item>
+        <item>1 segundo</item>
+        <item>2 segundos</item>
+        <item>5 segundos</item>
+        <item>10 segundos</item>    
+    </string-array>
+
+    <string-array name="entryvalues_prf_time_gps">
+    	<item>0</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>5000</item>
+        <item>10000</item> 
+    </string-array>
+    
+    <string-array name="entries_prf_distance_gps">
+    	<item>Según tipo de ruta (recomendado)</item>
+        <item>1 metro</item>
+        <item>3 metros</item>
+        <item>5 metros</item>
+        <item>10 metros</item>
+        <item>25 metros</item>
+        <item>50 metros</item>      
+    </string-array>
+
+    <string-array name="entryvalues_prf_distance_gps">
+    	<item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>25</item>
+        <item>50</item> 
+    </string-array>
+    
+    <string-array name="entries_every_distance">
+        <item>Cada 50 metros</item>
+        <item>Cada 100 metros</item>
+        <item>Cada 200 metros</item>
+        <item>Cada 250 metros</item>
+        <item>Cada 500 metros</item>
+        <item>Cada kilómetro</item>
+        <item>Cada 2 kilómetros</item>
+        <item>Cada 3 kilómetros</item>
+        <item>Cada 5 kilómetros</item>
+        <item>Cada 10 kilómetros</item>      
+    </string-array>
+
+    <string-array name="entryvalues_every_distance">
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+        <item>250</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>5000</item>
+        <item>10000</item> 
+    </string-array>
+    
+    <string-array name="entries_every_time">
+        <item>Cada minuto</item>
+        <item>Cada 2 minutos</item>
+        <item>Cada 2 minutos y medio</item>
+        <item>Cada 3 minutos</item>
+        <item>Cada 5 minutos</item>
+        <item>Cada 10 minutos</item>
+        <item>Cada 20 minutos</item>
+        <item>Cada 30 minutos</item>
+        <item>Cada hora</item>     
+    </string-array>
+
+    <string-array name="entryvalues_every_time">
+        <item>60</item>
+        <item>120</item>
+        <item>150</item>
+        <item>180</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1200</item>
+        <item>1800</item>
+        <item>3600</item>
+    </string-array>
+    
+    <string-array name="entries_accuracy_gps">
+    	<item>No usar</item>
+        <item>5 metros</item>
+        <item>10 metros</item>
+        <item>20 metros</item>
+        <item>30 metros</item>
+        <item>40 metros</item>
+        <item>50 metros</item>
+        <item>75 metros</item>
+        <item>100 metros</item>
+        <item>150 metros</item>
+    </string-array>
+
+    <string-array name="entryvalues_accuracy_gps">
+    	<item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>150</item>
+    </string-array>
+    
+    <string-array name="entries_type_draw_route">
+        <item>Dibujar completamente</item>
+        <item>Redibujar por trozos</item>
+    </string-array>
+    
+    <string-array name="entryvalues_type_draw_route">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    
+    <string-array name="entries_mindistance_path">
+        <item>10 metros</item>
+        <item>20 metros</item>
+        <item>30 metros</item>
+        <item>40 metros</item>
+        <item>50 metros</item>
+    </string-array>
+
+    <string-array name="entryvalues_mindistance_path">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+    </string-array>
+    
+</resources>

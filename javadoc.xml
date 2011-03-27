@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="public" author="true" classpath="../TableDB/com.android.TableDB.jar" destdir="doc" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="com.javielinux.BubblesMap.view" source="1.6" sourcefiles="src/com/javielinux/andando/RoutesList.java,src/com/javielinux/andando/RowRouteAdapter.java,src/com/javielinux/andando/CreateRoute.java,src/com/javielinux/andando/ShowRoute.java,src/com/javielinux/andando/RouteNewEdit.java,src/com/javielinux/andando/Andando.java,src/com/javielinux/andando/ManagerGPS.java" sourcepath="src" splitindex="true" use="true" version="true"/>
+    </target>
+</project>

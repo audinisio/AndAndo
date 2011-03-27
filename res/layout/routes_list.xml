@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:orientation="vertical" android:layout_width="fill_parent"
+    	android:layout_height="fill_parent" android:background="#768d91">
+    	    	
+	<LinearLayout android:orientation="vertical"
+		android:paddingTop="5px"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+       
+	    <ListView android:id="@+id/android:list"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:cacheColorHint="#FF768d91"
+	         />
+	  	<TextView 
+	  		android:id="@+id/android:empty"
+	  		android:gravity="center"
+	  		android:textSize="16px"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:textColor="#ffffff" 
+	        android:text="@string/no_routes"/>
+	        
+	</LinearLayout>
+	
+</LinearLayout>

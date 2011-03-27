@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndAndo</string>
+    <string name="walking">A pie</string>
+    <string name="car">Coche</string>
+    <string name="bike">Bicicleta</string>
+    <string name="motorcycle">Motocicleta</string>
+    <string name="other">Otro</string>
+    <string name="sports">Deportivo</string>
+    <string name="hiking">Senderismo</string>
+    <string name="skates">Patines</string>
+    <string name="skateboard">Skateboard</string>
+    
+<!-- 1.4 -->
+
+    <string name="walking_txt">a pie</string>
+    <string name="car_txt">en coche</string>
+    <string name="bike_txt">en bicicleta</string>
+    <string name="motorcycle_txt">en motocicleta</string>
+    <string name="sports_txt">corriendo</string>
+    <string name="hiking_txt">haciendo senderismo</string>
+    <string name="skates_txt">en patines</string>
+    <string name="skateboard_txt">en skateboard</string>
+
+<string name="share_url">Acabo de hacer %1$s %2$s con #AndAndo para #android. Puedes verlo aquí %3$s</string>
+
+<string name="sign_up">Registro</string>
+
+<string name="directory_no_exist">El directorio no existe, por favor escriba otro</string>
+
+<string name="directory_save">Directorio guardado correctamente</string>
+
+<string name="keys_save">Claves guardadas correctamente</string>
+
+<string name="directory">Directorio</string>
+
+<string name="title_prf_path_save_routes">Donde guardar rutas</string>
+<string name="summary_prf_path_save_routes">Directorio donde guardar las rutas. Por ejemplo un directorio de DropBox</string>	
+
+<string name="no_key_yourtrainings">Escribe tu usuario y clave de YourTrainings.com en las preferencias</string>
+
+<string name="on_the_web">En la web</string>
+
+<string name="route_no_web">La ruta no ha sido subida todavía a YourTrainings.com</string>
+
+<string name="dialog_export_uploading_web">Subiendo a la web</string>
+    
+<string name="title_prf_services">Servicios</string>
+<string name="title_prf_service_yourtrainings">Datos YourTrainings.com</string>
+<string name="summary_prf_service_yourtrainings">El nombre y clave es necesario para poder subir rutas a este servicio</string>	
+    
+<string name="username">Nombre de usuario</string>
+<string name="password">Clave</string>
+    
+<!-- 1.37 -->
+    
+<string name="alert_dialog_text_new_route">Nombre de la nueva ruta</string>
+<string name="create">Crear</string>
+<string name="cancel">Cancelar</string>
+<string name="description">Descripción</string>
+<string name="category">Categoría</string>
+<string name="group">Grupo</string>
+<string name="title">Título</string>
+<string name="save">Guardar</string>
+<string name="back">Volver</string>
+<string name="ok">Aceptar</string>
+<string name="error_empty">Existen algunos campos vacíos</string>
+<string name="no_routes">No existen rutas grabadas por el momento</string>
+<string name="chronometer_start">Empezar</string>
+<string name="chronometer_stop">Parar</string>
+<string name="order">Ordenar</string>
+<string name="type_order">Tipo</string>
+<string name="type_order_asc">Ascendente</string>
+<string name="type_order_desc">Descendente</string>
+
+<string name="route">Ruta</string>
+<string name="new_route">Nueva ruta</string>
+<string name="preferences">Preferencias</string>
+<string name="list_routes">Lista de rutas</string>
+<string name="gsp_state">Estado GPS</string>
+
+<string name="menu_share">Compartir ruta</string>
+<string name="menu_satellite">Vista Satélite</string>
+<string name="menu_traffic">Vista Callejero</string>
+<string name="menu_photo">Fotografía</string>
+<string name="menu_sound">Audio</string>
+<string name="menu_text">Texto</string>
+<string name="error_gps">GPS no está activo ¿Desea activarlo ahora?</string>
+
+<string name="yes">Si</string>
+<string name="exit">Salir</string>
+<string name="chronometer_back">Volver</string>
+<string name="select_action">Seleccionar acción</string>
+<string name="select_share_friends">Compartir con amigos</string>
+<string name="select_write_sdcard">Grabar en SD Card</string>
+<string name="select_category">Seleccionar categoría</string>
+<string name="alert_dialog_cancel">Cancelar</string>
+<string name="menu_edit">Editar</string>
+<string name="menu_play">Reproductor</string>
+<string name="menu_back">Volver</string>
+<string name="email_kml_subject">Me gustaria compartir una ruta contigo</string>
+<string name="email_kml_body">Te envío esta ruta creada con el programa AndAndo en Android ya que creo que puede ser interesante para tí. Puedes verla en Google Earth</string>
+<string name="alert_dialog_geo_text">Introduce el texto:</string>
+<string name="alert_dialog_ok">Aceptar</string>
+<string name="no">No</string>
+<string name="metres">metros</string>
+<string name="kilometres">km</string>
+<string name="miles">millas</string>
+<string name="minutes">minutos</string>
+<string name="seconds">segundos</string>
+<string name="and">y</string>
+<string name="of">de</string>
+<string name="title_question_delete">Borrar</string>
+<string name="question_delete">¿Está seguro de querer eliminar esta ruta?</string>
+<string name="menu_delete_all">Borrar todo</string>
+<string name="title_question_delete_all">Borrar todo</string>
+<string name="question_delete_all">¿Está seguro que quiere eliminar todas las rutas?</string>
+<string name="start">Punto de partida</string>
+<string name="end">Fin de la ruta</string>
+<string name="alert_dialog_import">Selecciona el archivo que quieres importar:</string>
+<string name="alert_dialog_restore">Selecciona el archivo que quieres restaurar:</string>
+<string name="alert_dialog_nofiles_import">No existen archivos .zip en /sdcard/andando para poder importar</string>
+<string name="alert_dialog_nofiles_restore">No existen archivos .bck en /sdcard/andando para poder restaurar</string>
+<string name="alert_dialog_filter">Criterios de búsqueda:</string>
+<string name="alert_dialog_show_all">Mostrar todo</string>
+<string name="alert_dialog_order_name">Por fecha</string>
+<string name="menu_filter">Filtrar</string>
+<string name="menu_backup">Copias</string>
+<string name="email_andando_body">Te envío esta ruta creada con el programa AndAndo en Android ya que creo que puede ser interesante para tí. Para verla debes tener instalado el programa AndAndo en tu teléfono con Android, copiar el archivo en el directorio /sdcard/andando e importarlo desde el programa</string>
+<string name="attention">Atención</string>
+<string name="menu_view_info">Ver datos</string>
+<string name="distance">Distancia recorrida</string>
+<string name="speed">Velocidad</string>
+<string name="average_speed">Velocidad media</string>
+<string name="max_speed">Velocidad máxima</string>
+<string name="time">Tiempo</string>
+<string name="route_name">Nombre de la ruta</string>
+<string name="date">Fecha</string>
+<string name="hour">Hora</string>
+<string name="n_coordinates_route">Número de coordenadas en la ruta</string>
+<string name="export_route">Ruta exportada satisfactoriamente en: </string>
+<string name="menu_import">Importar ruta</string>
+<string name="dialog_prf_time_gps">Tiempo</string>
+<string name="title_prf_time_gps">Registro de tiempo</string>
+<string name="summary_prf_time_gps">Intervalo de tiempo mínimo que tarda en notificar el estado del GPS</string>
+<string name="title_prf_gps">Registro de actividad del GPS</string>
+<string name="dialog_prf_distance_gps">Distancia</string>
+<string name="title_prf_distance_gps">Registro de distancia</string>
+<string name="summary_prf_distance_gps">Distancia mínima recorrida para notificar el estado del GPS</string>
+<string name="title_prf_others">Otras configuraciones</string>
+<string name="title_prf_center">Centrar mapa</string>
+<string name="summary_prf_center">Centra el mapa por defecto al encontrar una nueva localización</string>
+<string name="title_prf_start">Lanzar cronómetro</string>
+<string name="summary_prf_start">El tiempo empieza al encontrar la primera localización</string>
+<string name="title_prf_animate">Animación del mapa</string>
+<string name="summary_prf_animate">Iniciar desplazamiento al moverte por el mapa</string>
+
+<string name="import_correctly">La importación se ha producido correctamente</string>
+<string name="import_error">Se ha producido un error en la importación. Compruebe que el fichero sea correcto</string>
+
+<string name="backup_correctly">La copia se ha realizado correctamente</string>
+<string name="backup_error">Se ha producido un error en la copia. Inténtelo de nuevo más tarde</string>
+
+<string name="restore_correctly">La restauracion se ha realizado correctamente</string>
+<string name="restore_error">Se ha producido un error en la restauración. Inténtelo de nuevo más tarde</string>
+
+<string name="marks">marcas</string>
+<string name="format_date">dd-MM-yyyy (HH:mm:ss)</string>
+<string name="no_info">Sin datos</string>
+<string name="distance_mark">Espacio entre marcas de distancia</string>
+<string name="time_mark">Segundos entre marcas de tiempo</string>
+<string name="dialog_resources_mark">recursos en la ruta</string>
+<string name="dialog_distance_mark">marcas de distancia</string>
+<string name="dialog_time_mark">marcas de tiempo</string>
+
+<string name="title_prf_marks">Marcas en la ruta</string>
+<string name="title_prf_time_marks">Tiempo entre marcas</string>
+<string name="summary_prf_time_marks">Segundos por defecto que existe entre las marcas de tiempo</string>
+<string name="dialog_prf_time_marks">Seleccionar tiempo</string>
+<string name="title_prf_distance_marks">Distancia entre marcas</string>
+<string name="summary_prf_distance_marks">Espacio por defecto que existe entre las marcas de distancia</string>
+<string name="dialog_prf_distance_marks">Seleccionar distancia</string>
+<string name="title_prf_vibrate_marks">Modo Vibración</string>
+<string name="summary_prf_vibrate_marks">El teléfono vibra al encontrar una marca de tiempo o distancia</string>
+<string name="title_prf_notification_marks">Reproducir sonido</string>
+<string name="summary_prf_notification_marks">Se escuchará la notificación por defecto al encontrar una marca</string>
+<string name="title_prf_units">Unidades</string>
+<string name="summary_prf_units">Unidad por defecto usada en la aplicación</string>
+<string name="dialog_prf_units">Seleccionar unidad</string>
+
+<string name="notificacion_msg">Grabando ruta</string>
+<string name="no_location">No se ha encontrado localización</string>
+<string name="back_sure">Si vuelve atrás la ruta finalizará. Puede ir al escritorio pulsando el botón HOME y luego volver al programa desde la ventana de notificaciones ¿Está seguro de salir?</string>
+<string name="dialog_export_exporting">Exportando...</string>
+<string name="dialog_export_preparing">Preparando exportación</string>
+<string name="dialog_export_cancel">Exportación cancelada</string>
+<string name="dialog_export_creating_files">Creando archivos necesarios</string>
+<string name="dialog_export_packaging">Empaquetando</string>
+<string name="dialog_export_packaging_images">Empaquetando imágenes</string>
+<string name="dialog_export_finish">Proceso finalizado</string>
+<string name="dialog_export_no_finish">Problema al subir la ruta. Inténtalo más tarde</string>
+<string name="dialog_export_creating_kml">Creando KML</string>
+<string name="dialog_export_creating_gpx">Creando GPX</string>
+<string name="dialog_export_creating_xml">Creando XML</string>
+<string name="dialog_import_importing">Importando...</string>
+<string name="dialog_import_text">Importando ruta. Este proceso puede tardar un rato.</string>
+
+<string name="dialog_backup_creating">Copia de Seguridad...</string>
+<string name="dialog_backup_text">Realizando copia. Este proceso puede tardar un rato.</string>
+
+<string name="dialog_restore_restoring">Reestableciendo copia...</string>
+<string name="dialog_restore_text">Reestableciendo copia de seguridad. Este proceso puede tardar un rato.</string>
+
+<string name="dialog_import_delete">Borrar archivo al finalizar el proceso</string>
+<string name="dialog_write_default">Escribir asunto y cuerpo del correo</string>
+
+<string name="alert_dialog_text_simplify">Al simplificar una ruta se reducirá el número de nodos a la mitad y el trazo de la ruta puede variar ¿Qué deseas hacer?</string>
+<string name="alert_dialog_show">Mostrar</string>
+<string name="alert_dialog_simplify">Simplificar</string>
+<string name="title_route_simplify">Simplificada</string>
+<string name="dialog_simplify">Simplificando ruta</string>
+<string name="route_simplify">Ruta simplificada correctamente</string>
+<string name="dialog_simplify_simplifying">Simplificando...</string>
+
+<string name="image_recorded_successfully">Imagen grabada satisfactoriamente</string>
+<string name="sound_recorded_successfully">Sonido grabado satisfactoriamente</string>
+<string name="text_recorded_successfully">Texto grabado satisfactoriamente</string>
+<string name="no_group">Sin grupo</string>
+
+<string name="alert_dialog_text_add_group">Nombre del grupo</string>
+<string name="alert_dialog_title_remove_group">Borrar grupo</string>
+<string name="alert_dialog_text_remove_group">Si borra este grupo todas las rutas que pertenecan a él pasarán a no tener grupo ¿Seguro que quiere borrarlo?</string>
+<string name="no_remove_group">No se puede eliminar este grupo</string>
+<string name="locations">puntos</string>
+
+<string name="today">Hoy</string>
+<string name="yesterday">Ayer</string>
+<string name="two_days_ago">Hace 2 días</string>
+<string name="three_days_ago">Hace 3 días</string>
+
+<string name="position_date_day">0</string>
+<string name="position_date_month">1</string>
+<string name="position_date_year">2</string>
+<string name="separate_date">/</string>
+
+<string name="loading">Cargando</string>
+<string name="loading_images">Cargando imágenes...</string>
+<string name="new_photo">Nueva fotografía</string>
+
+
+<string name="title_kilometer">Kilómetro</string>
+<string name="title_mile">Milla</string>
+<string name="general">General</string>
+<string name="bykm">Por kilómetros</string>
+<string name="bymile">Por milla</string>
+<string name="average_time_kilometer">Media de tiempo por kilómetro</string>
+<string name="average_time_mile">Media de tiempo por milla</string>
+<string name="last">Últimos</string>
+
+<string name="start_track">Comenzar ruta</string>
+<string name="pause">Pausa</string>
+<string name="continued">Continuar</string>
+<string name="finish">Finalizar</string>
+<string name="current_accuracy">Precisión actual de</string>
+<string name="finish_route">Ruta finalizada</string>
+<string name="title_prf_accuracy_gps">Precisión GPS</string>
+<string name="summary_prf_accuracy_gps">No guardar punto con una precisión mayor a este dato</string>
+<string name="click_image_to_large">Pulse en la imagen para ampliarla</string>
+<string name="click_play_to_listen">Pulse en el botón para escucharlo</string>
+<string name="accuracy_greater_than">Precisión mayor a</string>
+
+<string name="route_start">Comenzamos la ruta</string>
+<string name="route_pause">Pausa en la ruta</string>
+<string name="route_continue">Continuamos la ruta</string>
+<string name="route_stop">Final de la ruta</string>
+<string name="take_photo">Para hacer una nueva fotografía pulsa el botón MENU</string>
+<string name="recalculate_rotals">Totales han sido calculados correctamente</string>	
+
+<string name="title_prf_type_draw_route">Forma redibujar línea</string>
+<string name="summary_prf_type_draw_route">Establece la forma de redibujar la línea de la ruta en el mapa</string>	
+<string name="dialog_prf_type_draw_route">Forma</string>
+<string name="original_route_image">La ruta original tiene una imagen en este punto</string>
+<string name="rides">recorridos en</string>
+<string name="currently">Actualmente</string>
+<string name="preference_currently">Puedes cambiar la precisión mínima en las preferencias</string>
+
+<string name="lock">Bloquear</string>
+<string name="unlock">Desbloquear</string>
+
+<string name="title_prf_autolock">Auto bloqueo</string>
+<string name="summary_prf_autolock">Bloquea los botones automáticamente al comenzar la ruta</string>
+
+<string name="menu_gotostart">Ir a inicio</string>	
+
+<string name="charts">Gráficas</string>
+
+<string name="altitude">Altitud</string>
+
+<string name="altitude_distance">Altitud/Distancia</string>	
+<string name="altitude_time">Altitud/Tiempo</string>	
+<string name="speed_distance">Velocidad/Distancia</string>	
+<string name="speed_time">Velocidad/Tiempo</string>
+
+<string name="my_location">Mi ubicación</string>
+<string name="no_my_location">No ubicar</string>
+
+<string name="average_altitude">Altitud media</string>
+
+<string name="position">Posición</string>
+
+<string name="altidude_of_track">Altitud del recorrido</string>
+<string name="speed_of_track">Velocidad del recorrido</string>
+
+<string name="location_in_path">Ubicación dentro de la ruta</string>
+
+<string name="location_out_path">Ubicación fuera de la ruta</string>
+
+<string name="searching_gps">Buscando localización GPS</string>
+
+<string name="title_prf_mindistance_path">Distancia mínima</string>
+<string name="summary_prf_mindistance_path">Metros mínimos para encontrarte dentro de la ruta</string>
+
+<string name="location_out_path_text">hasta la ruta</string>
+
+<string name="location_in_path_text">desde el inicio</string>
+
+<string name="no_imagen_in_phone">La imagen ha sido borrada del teléfono</string>
+<string name="no_sound_in_phone">El audio ha sido borrado del teléfono</string>
+
+</resources>

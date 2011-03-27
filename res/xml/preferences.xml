@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="@string/title_prf_gps">
+            
+        <ListPreference
+        		android:defaultValue="0"
+                android:key="prf_time_gps"
+                android:title="@string/title_prf_time_gps"
+                android:summary="@string/summary_prf_time_gps"
+                android:entries="@array/entries_prf_time_gps"
+                android:entryValues="@array/entryvalues_prf_time_gps"
+                android:dialogTitle="@string/dialog_prf_time_gps" />
+                
+        <ListPreference
+        		android:defaultValue="0"
+                android:key="prf_distance_gps"
+                android:title="@string/title_prf_distance_gps"
+                android:summary="@string/summary_prf_distance_gps"
+                android:entries="@array/entries_prf_distance_gps"
+                android:entryValues="@array/entryvalues_prf_distance_gps"
+                android:dialogTitle="@string/dialog_prf_distance_gps" />
+                
+                
+        <ListPreference
+        		android:defaultValue="0"
+                android:key="prf_accuracy"
+                android:title="@string/title_prf_accuracy_gps"
+                android:summary="@string/summary_prf_accuracy_gps"
+                android:entries="@array/entries_accuracy_gps"
+                android:entryValues="@array/entryvalues_accuracy_gps"
+                android:dialogTitle="@string/dialog_prf_distance_gps" />
+            
+    </PreferenceCategory>
+	
+	 <PreferenceCategory
+            android:title="@string/title_prf_marks">
+            
+        <ListPreference
+        		android:defaultValue="120"
+                android:key="prf_time_marks"
+                android:title="@string/title_prf_time_marks"
+                android:summary="@string/summary_prf_time_marks"
+                android:entries="@array/entries_every_time"
+                android:entryValues="@array/entryvalues_every_time"
+                android:dialogTitle="@string/dialog_prf_time_marks" />
+                
+        <ListPreference
+        		android:defaultValue="500"
+                android:key="prf_distance_marks"
+                android:title="@string/title_prf_distance_marks"
+                android:summary="@string/summary_prf_distance_marks"
+                android:entries="@array/entries_every_distance"
+                android:entryValues="@array/entryvalues_every_distance"
+                android:dialogTitle="@string/dialog_prf_distance_marks" />
+				
+        <CheckBoxPreference
+        		android:defaultValue="true"
+                android:key="prf_vibrate_marks"
+                android:title="@string/title_prf_vibrate_marks"
+                android:summary="@string/summary_prf_vibrate_marks" />
+				
+        <CheckBoxPreference
+        		android:defaultValue="false"
+                android:key="prf_notification_marks"
+                android:title="@string/title_prf_notification_marks"
+                android:summary="@string/summary_prf_notification_marks" />
+            
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        	android:title="@string/title_prf_others">
+        		
+        <ListPreference
+        		android:defaultValue="km"
+                android:key="prf_units"
+                android:title="@string/title_prf_units"
+                android:summary="@string/summary_prf_units"
+                android:entries="@array/entries_prf_units"
+                android:entryValues="@array/entryvalues_prf_units"
+                android:dialogTitle="@string/dialog_prf_units" />
+
+        <CheckBoxPreference
+        		android:defaultValue="true"
+                android:key="prf_center"
+                android:title="@string/title_prf_center"
+                android:summary="@string/summary_prf_center" />
+                
+        <CheckBoxPreference
+        		android:defaultValue="true"
+                android:key="prf_start"
+                android:title="@string/title_prf_start"
+                android:summary="@string/summary_prf_start" />
+                
+        <CheckBoxPreference
+        		android:defaultValue="false"
+                android:key="prf_animate"
+                android:title="@string/title_prf_animate"
+                android:summary="@string/summary_prf_animate" />
+                
+        <CheckBoxPreference
+        		android:defaultValue="false"
+                android:key="prf_autolock"
+                android:title="@string/title_prf_autolock"
+                android:summary="@string/summary_prf_autolock" />
+                
+        <ListPreference
+        		android:defaultValue="0"
+                android:key="prf_type_draw_route"
+                android:title="@string/title_prf_type_draw_route"
+                android:summary="@string/summary_prf_type_draw_route"
+                android:entries="@array/entries_type_draw_route"
+                android:entryValues="@array/entryvalues_type_draw_route"
+                android:dialogTitle="@string/dialog_prf_type_draw_route" />
+                
+        <ListPreference
+        		android:defaultValue="20"
+                android:key="prf_mindistance_path"
+                android:title="@string/title_prf_mindistance_path"
+                android:summary="@string/summary_prf_mindistance_path"
+                android:entries="@array/entries_mindistance_path"
+                android:entryValues="@array/entryvalues_mindistance_path"
+                android:dialogTitle="@string/title_prf_mindistance_path" />
+        <!-- 
+	        <Preference
+                android:key="prf_path_save_routes"
+                android:title="@string/title_prf_path_save_routes"
+                android:summary="@string/summary_prf_path_save_routes"
+                android:dialogTitle="@string/title_prf_path_save_routes" />
+        -->   
+	</PreferenceCategory>
+	
+    <PreferenceCategory
+        	android:title="@string/title_prf_services">
+        	
+	        <Preference
+                android:key="prf_service_yourtrainings"
+                android:title="@string/title_prf_service_yourtrainings"
+                android:summary="@string/summary_prf_service_yourtrainings"
+                android:dialogTitle="@string/title_prf_service_yourtrainings" />
+                
+	</PreferenceCategory>
+    
+</PreferenceScreen>

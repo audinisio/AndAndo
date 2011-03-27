@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" android:background="@drawable/bg_main">
+
+	<RelativeLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+	    
+		<ImageButton android:id="@+id/newroute" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/empty" android:src="@drawable/btn_new_route_off" android:layout_marginLeft="8px" android:layout_marginTop="138px"></ImageButton>
+		<ImageButton android:id="@+id/listroutes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_track_list_off" android:background="@drawable/empty" android:layout_marginLeft="190px" android:layout_marginTop="115px"></ImageButton>
+		<ImageButton android:id="@+id/preferences" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_preferences_off" android:background="@drawable/empty" android:layout_marginLeft="108px" android:layout_marginTop="226px"></ImageButton>
+		<ImageButton android:id="@+id/gps" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_gps_active_off" android:background="@drawable/empty" android:layout_marginLeft="205px" android:layout_marginTop="320px"></ImageButton>	
+		
+	</RelativeLayout>
+	
+
+</FrameLayout>

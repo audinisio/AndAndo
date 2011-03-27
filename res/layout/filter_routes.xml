@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:paddingTop="5px" android:paddingBottom="5px">
+	   
+<TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:layout_width="fill_parent"
+			android:padding="5px"
+			android:layout_marginRight="5px"
+			android:layout_marginLeft="5px"
+			android:layout_height="wrap_content"
+			android:textSize="14px"
+			android:text="@string/category" android:textColor="#ffffff"/>
+			
+		<TextView android:layout_width="fill_parent"
+			android:id="@+id/text_category"
+			android:padding="5px"
+			android:layout_marginRight="5px"
+			android:layout_marginLeft="5px"
+			android:layout_height="wrap_content"
+			android:textSize="14px"
+			android:textStyle="bold"
+			android:layout_weight="1"
+			android:text="@string/alert_dialog_show_all" android:textColor="#ffffff"/>
+			
+	    <ImageButton android:id="@+id/btn_change_category"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content" android:src="@drawable/process"/>
+	    	
+	    <ImageButton android:id="@+id/btn_remove_category"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:src="@drawable/remove" />
+	</TableRow>
+	<TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:layout_width="fill_parent"
+			android:padding="5px"
+			android:layout_marginRight="5px"
+			android:layout_marginLeft="5px"
+			android:layout_height="wrap_content"
+			android:textSize="14px"
+			android:text="@string/group" android:textColor="#ffffff"/>
+			
+		<TextView android:layout_width="fill_parent"
+			android:id="@+id/text_group"
+			android:padding="5px"
+			android:layout_marginRight="5px"
+			android:layout_marginLeft="5px"
+			android:layout_height="wrap_content"
+			android:textSize="14px"
+			android:textStyle="bold"
+			android:layout_weight="1"
+			android:text="@string/alert_dialog_show_all" android:textColor="#ffffff"/>
+			
+	    <ImageButton android:id="@+id/btn_change_group"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:src="@drawable/process" />
+	    	
+	    <ImageButton android:id="@+id/btn_remove_group"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:src="@drawable/remove" />
+	</TableRow>
+	<TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:layout_width="fill_parent"
+			android:padding="5px"
+			android:layout_marginRight="5px"
+			android:layout_marginLeft="5px"
+			android:layout_height="wrap_content"
+			android:textSize="14px"
+			android:text="@string/date" android:textColor="#ffffff"/>
+			
+		<TextView android:layout_width="fill_parent"
+			android:id="@+id/text_date"
+			android:padding="5px"
+			android:layout_marginRight="5px"
+			android:layout_marginLeft="5px"
+			android:layout_height="wrap_content"
+			android:textSize="14px"
+			android:textStyle="bold"
+			android:layout_weight="1"
+			android:text="@string/alert_dialog_show_all" android:textColor="#ffffff"/>
+			
+	    <ImageButton android:id="@+id/btn_change_date"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:src="@drawable/process" />
+	    	
+	    <ImageButton android:id="@+id/btn_remove_date"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:src="@drawable/remove" />
+	</TableRow>
+	<TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:layout_width="fill_parent"
+			android:padding="5px"
+			android:layout_marginRight="5px"
+			android:layout_marginLeft="5px"
+			android:layout_height="wrap_content"
+			android:textSize="14px"
+			android:text="@string/order" android:textColor="#ffffff"/>
+			
+		<TextView android:layout_width="fill_parent"
+			android:id="@+id/text_order"
+			android:padding="5px"
+			android:layout_marginRight="5px"
+			android:layout_marginLeft="5px"
+			android:layout_height="wrap_content"
+			android:textSize="14px"
+			android:textStyle="bold"
+			android:layout_weight="1"
+			android:text="@string/alert_dialog_order_name" android:textColor="#ffffff"/>
+			
+	    <ImageButton android:id="@+id/btn_change_order"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:src="@drawable/process" />
+	    	
+	    <ImageButton android:id="@+id/btn_remove_order"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:src="@drawable/remove" />
+	</TableRow>
+</TableLayout>
+
+<TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:layout_width="fill_parent"
+			android:padding="5px"
+			android:layout_marginRight="35px"
+			android:layout_marginLeft="5px"
+			android:layout_height="wrap_content"
+			android:textSize="14px"
+			android:text="@string/type_order" android:textColor="#ffffff"/>
+		<RadioGroup android:id="@+id/type_radios" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical">
+			<RadioButton android:text="@string/type_order_asc" android:id="@+id/type_order1" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+			<RadioButton android:text="@string/type_order_desc" android:id="@+id/type_order2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true"></RadioButton>
+		</RadioGroup>
+	</TableRow>
+</TableLayout>
+
+</LinearLayout>

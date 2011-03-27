@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<database name="andando_db" version="5">
+  
+  <table name="routes" to-string="%name%">
+    <field name="name" obligatory="true" type="text" size="128"/>
+    <field name="description" obligatory="true" type="text" size="512"/>
+	<field name="group_id" type="foreign-key" foreign-table="groups" />
+    <field name="category_id" type="foreign-key" foreign-table="categories" />
+	<field name="date" type="text" obligatory="true" />
+	<field name="distance" type="float" obligatory="true" default="0" />
+	<field name="time" type="integer" obligatory="true" default="0" />
+	<field name="average_speed" type="float" default="0" />
+	<field name="max_speed" type="float" default="0" />
+	<field name="coordinates_route" type="integer" default="0" />	
+	<field name="divide_time" type="integer" obligatory="true" default="120" />
+	<field name="divide_distance" type="integer" obligatory="true" default="250" />
+	<field name="url_yourtrainings" obligatory="true" type="text" size="256" new-in-version="5" />
+  </table>
+  
+  <table name="categories" to-string="%name%" backup="no">
+    <field name="name" obligatory="true" type="string-identifier" size="128"/>
+	<field name="default_time_gps" type="integer" obligatory="true" default="1" />
+	<field name="default_distance_gps" type="integer" obligatory="true" default="5" />
+	<field name="position" type="integer" obligatory="true" default="1" new-in-version="2" />
+  </table>
+  
+  <table name="locations" to-string="%latitude%">
+  	<field name="route_id" type="foreign-key" foreign-table="routes" />
+  	<field name="latitude" type="float" obligatory="true" default="0" />
+	<field name="longitude" type="float" obligatory="true" default="0" />
+	<field name="altitude" type="float" obligatory="true" default="0" />
+	<field name="position" type="integer" obligatory="true" default="0" />
+	<field name="distance" type="float" obligatory="true" default="0" />
+	<field name="speed" type="float" obligatory="true" default="0" />
+	<field name="bearing" type="float" obligatory="true" default="0" />
+	<field name="accuracy" type="float" obligatory="true" default="0" new-in-version="3" />
+	<field name="time" type="integer" obligatory="true" default="0" />
+	<field name="pause" type="integer" obligatory="true" default="0" new-in-version="3" />
+  </table>
+  
+  <table name="resource" to-string="%text%">
+  	<field name="text" type="text" size="512" />
+	<field name="file" type="text" size="128" />
+    <field name="type_resource_id" type="foreign-key" foreign-table="types_resource" default="1" />
+	<field name="route_id" type="foreign-key" foreign-table="routes" />
+	<field name="latitude" type="float" obligatory="true" default="0" />
+	<field name="longitude" type="float" obligatory="true" default="0" />
+	<field name="altitude" type="float" obligatory="true" default="0" />
+  </table>
+  
+  <table name="types_resource" to-string="%name%" backup="no">
+  	<field name="name" obligatory="true" type="name" size="128"/>
+  </table>
+  
+  <table name="groups" to-string="%name%">
+    <field name="name" obligatory="true" type="string-identifier" size="128"/>
+  </table>
+  
+ </database>

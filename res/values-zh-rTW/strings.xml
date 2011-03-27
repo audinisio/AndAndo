@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndAndo</string>
+    <string name="walking">步行</string>
+    <string name="car">汽機車</string>
+    <string name="bike">自行車</string>
+    <string name="motorcycle">摩托車</string>
+    <string name="other">其他</string>
+    <string name="sports">運動</string>
+    <string name="hiking">徒步旅行</string>
+    <string name="skates">溜冰鞋</string>
+    <string name="skateboard">滑板</string>
+    
+<string name="alert_dialog_text_new_route">新路線的名稱</string>
+<string name="create">建立</string>
+<string name="cancel">取消</string>
+<string name="description">描述</string>
+<string name="category">分類</string>
+<string name="group">分組</string>
+<string name="title">標題</string>
+<string name="save">儲存</string>
+<string name="back">返回</string>
+<string name="ok">接受</string>
+<string name="error_empty">有一些項目沒有填</string>
+<string name="no_routes">此刻沒有路線記錄</string>
+<string name="chronometer_start">開始</string>
+<string name="chronometer_stop">停止</string>
+<string name="order">排序</string>
+<string name="type_order">類型</string>
+<string name="type_order_asc">遞增</string>
+<string name="type_order_desc">遞減</string>
+
+<string name="route">路線</string>
+<string name="new_route">開新路線</string>
+<string name="preferences">首選項</string>
+<string name="list_routes">路線清單</string>
+<string name="gsp_state">GPS狀態</string>
+
+<string name="menu_share">分享路線</string>
+<string name="menu_satellite">衛星模式</string>
+<string name="menu_traffic">地圖模式</string>
+<string name="menu_photo">照片</string>
+<string name="menu_sound">聲音</string>
+<string name="menu_text">文字</string>
+<string name="error_gps">GPS未開啟，您想要現在開啟么？</string>
+
+<string name="yes">是</string>
+<string name="exit">結束</string>
+<string name="chronometer_back">返回</string>
+<string name="select_action">選擇操作</string>
+<string name="select_share_friends">與朋友分享</string>
+<string name="select_write_sdcard">寫入SD卡</string>
+<string name="select_category">選擇分類</string>
+<string name="alert_dialog_cancel">取消</string>
+<string name="menu_edit">編輯</string>
+<string name="menu_play">播放</string>
+<string name="menu_back">返回</string>
+<string name="email_kml_subject">我想與你分享一條路線</string>
+<string name="email_kml_body">我發送的路線是由AndAndo建立的，我想你可能會對它感興趣。你可以在Google Earth上找到它。</string>
+<string name="alert_dialog_geo_text">輸入文字:</string>
+<string name="alert_dialog_ok">接受</string>
+<string name="no">否</string>
+<string name="metres">米</string>
+<string name="miles">英里</string>
+<string name="kilometres">km</string>
+<string name="minutes">分鐘</string>
+<string name="seconds">秒</string>
+<string name="and">和</string>
+<string name="of">/</string>
+<string name="title_question_delete">移除</string>
+<string name="question_delete">您確定要移除這條路線么？</string>
+<string name="menu_delete_all">全部移除</string>
+<string name="title_question_delete_all">移除全部</string>
+<string name="question_delete_all">您確定要移除所有的路線么</string>
+<string name="start">開始</string>
+<string name="end">結束</string>
+<string name="alert_dialog_import">選擇您要匯入的檔案:</string>
+<string name="alert_dialog_restore">選擇您要恢復的檔案:</string>
+<string name="alert_dialog_nofiles_import">Zip檔案不存在于 /sdcard/andando</string>
+<string name="alert_dialog_nofiles_restore">.bck檔案不存在于 /sdcard/andando</string>
+<string name="alert_dialog_filter">搜尋選項:</string>
+<string name="alert_dialog_show_all">顯示所有</string>
+<string name="alert_dialog_order_name">依日期</string>
+<string name="menu_filter">篩選</string>
+<string name="menu_backup">備份</string>
+<string name="email_andando_body">我發送的路線是由AndAndo建立的。你需要安裝AndAndo，複製這個檔案到 /sdcard/andando 并從程式中匯入。</string>
+<string name="attention">警告</string>
+<string name="menu_view_info">檢視資料</string>
+<string name="distance">距離</string>
+<string name="speed">速度</string>
+<string name="average_speed">平均速度</string>
+<string name="max_speed">最高速度</string>
+<string name="time">時間</string>
+<string name="route_name">路徑名稱</string>
+<string name="date">日期</string>
+<string name="hour">小時</string>
+<string name="n_coordinates_route">這條路線的坐標數</string>
+<string name="export_route">路線匯出成功: </string>
+<string name="menu_import">匯入路線</string>
+<string name="dialog_prf_time_gps">時間</string>
+<string name="title_prf_time_gps">時間記錄</string>
+<string name="summary_prf_time_gps">報告GPS狀態的最小時間間隔</string>
+<string name="title_prf_gps">GPS活動</string>
+<string name="dialog_prf_distance_gps">距離</string>
+<string name="title_prf_distance_gps">距離記錄</string>
+<string name="summary_prf_distance_gps">報告GPS狀態的旅行距離</string>
+<string name="title_prf_others">其他設定</string>
+<string name="title_prf_center">中心地圖</string>
+<string name="summary_prf_center">到地圖中心來找到一個新位置</string>
+<string name="title_prf_start">啟動計時器</string>
+<string name="summary_prf_start">尋找第一個位置時啟動計數</string>
+<string name="title_prf_animate">動態地圖</string>
+<string name="summary_prf_animate">開始動態移動地圖</string>
+
+<string name="import_correctly">匯入正確</string>
+<string name="import_error">匯入時發生錯誤。請檢查檔案是正確的</string>
+
+<string name="backup_correctly">備份正確</string>
+<string name="backup_error">備份時發生錯誤。請稍后再試</string>
+
+<string name="restore_correctly">恢復正確</string>
+<string name="restore_error">恢復時發生錯誤。請稍后再試</string>
+
+<string name="marks">標記</string>
+<string name="format_date">yyyy-MM-dd (HH:mm:ss)</string>
+<string name="no_info">無資料</string>
+<string name="distance_mark">距離標記之間的間距</string>
+<string name="time_mark">時間標記之間的秒數</string>
+<string name="dialog_resources_mark">路線中的資源</string>
+<string name="dialog_distance_mark">距離標記</string>
+<string name="dialog_time_mark">時間標記</string>
+
+<string name="title_prf_marks">在路線上標記</string>
+<string name="title_prf_time_marks">標記之間的時間</string>
+<string name="summary_prf_time_marks">時間標記之間的預設秒數</string>
+<string name="dialog_prf_time_marks">選擇時間</string>
+<string name="title_prf_distance_marks">標記之間的距離</string>
+<string name="summary_prf_distance_marks">距離標記之間的預設間距</string>
+<string name="dialog_prf_distance_marks">選擇距離</string>
+<string name="title_prf_vibrate_marks">振動模式</string>
+<string name="summary_prf_vibrate_marks">當您找到一個時間或距離標記時震動</string>
+<string name="title_prf_notification_marks">播放聲音</string>
+<string name="summary_prf_notification_marks">找到一個標記時播放的預設通知聲</string>
+<string name="title_prf_units">單位</string>
+<string name="summary_prf_units">程式中使用的預設單位</string>
+<string name="dialog_prf_units">選擇單位</string>
+
+<string name="notificacion_msg">記錄路線</string>
+<string name="no_location">沒有位置</string>
+<string name="back_sure">如果您返回您將結束這條路線。您可以透過HOME鍵回到桌面和使用狀態列通知來返回到程式。您確定要結束么？</string>
+<string name="dialog_export_exporting">匯出中...</string>
+<string name="dialog_export_preparing">正在準備匯出</string>
+<string name="dialog_export_cancel">匯出已取消</string>
+<string name="dialog_export_creating_files">建立檔案</string>
+<string name="dialog_export_packaging">正在打包</string>
+<string name="dialog_export_packaging_images">正在打包圖片</string>
+<string name="dialog_export_finish">步驟已完成</string>
+<string name="dialog_export_creating_kml">正在建立KML</string>
+<string name="dialog_export_creating_gpx">正在建立GPX</string>
+<string name="dialog_export_creating_xml">正在建立XML</string>
+<string name="dialog_import_importing">正在匯入...</string>
+<string name="dialog_import_text">正在匯入路線。這個過程需要一段時間。</string>
+
+<string name="dialog_backup_creating">正在備份...</string>
+<string name="dialog_backup_text">正在建立備份。這個過程需要一段時間。</string>
+
+<string name="dialog_restore_restoring">正在恢復備份...</string>
+<string name="dialog_restore_text">正在恢復備份。這個過程需要一段時間。</string>
+
+<string name="dialog_import_delete">步驟完成時移除檔案</string>
+<string name="dialog_write_default">寫主題和郵件內容</string>
+
+<string name="alert_dialog_text_simplify">簡化路線會使節點數減為一半并且路線可能會改變。您想要做什么？</string>
+<string name="alert_dialog_show">顯示</string>
+<string name="alert_dialog_simplify">簡化</string>
+<string name="title_route_simplify">簡化的</string>
+<string name="dialog_simplify">正在簡化路線</string>
+<string name="route_simplify">路線簡化成功</string>
+<string name="dialog_simplify_simplifying">簡化中...</string>
+
+<string name="image_recorded_successfully">記錄影像成功</string>
+<string name="text_recorded_successfully">記錄文字成功</string>
+<string name="no_group">沒有分組</string>
+
+<string name="alert_dialog_text_add_group">分組名</string>
+<string name="alert_dialog_title_remove_group">移除分組</string>
+<string name="alert_dialog_text_remove_group">如果你移除這個分組所有屬于它的路線將會失去分組。您確定要移除它么？</string>
+<string name="no_remove_group">改分組不能被移除</string>
+<string name="locations">點</string>
+
+<string name="today">今天</string>
+<string name="yesterday">昨天</string>
+<string name="two_days_ago">2天前</string>
+<string name="three_days_ago">3天前</string>
+
+<string name="position_date_day">2</string>
+<string name="position_date_month">1</string>
+<string name="position_date_year">0</string>
+<string name="separate_date">-</string>
+
+<string name="loading">載入中</string>
+<string name="loading_images">加載圖像</string>
+<string name="new_photo">新照片</string>
+
+<string name="title_kilometer">公里</string>
+<string name="title_mile">英里</string>
+<string name="general">一般</string>
+<string name="bykm">每公里</string>
+<string name="bymile">每英里</string>
+<string name="average_time_kilometer">每公里平均時間</string>
+<string name="average_time_mile">每英里的平均時間</string>
+<string name="last">最近</string>
+</resources>

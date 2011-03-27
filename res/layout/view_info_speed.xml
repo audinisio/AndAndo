@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:background="@drawable/bg" android:layout_height="fill_parent">
+
+	<ScrollView android:id="@+id/ScrollView01" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		
+		<LinearLayout
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+	
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:padding="0px">
+			
+				<LinearLayout android:orientation="vertical"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_weight="1" android:padding="0px" android:layout_marginRight="3px">
+					
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:paddingRight="10px" 
+						android:text="@string/average_speed" android:textColor="#ffffff" android:textSize="14px" android:padding="5px"/>
+						
+					<TextView android:layout_height="wrap_content"
+						android:text="@string/no_info" android:textColor="#000000" android:textSize="20px" android:background="#ffffff" android:layout_width="fill_parent" android:padding="5px" android:id="@+id/view_average_speed_general"/>
+				
+				</LinearLayout>
+		
+				<LinearLayout android:orientation="vertical"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_weight="1" android:padding="0px" android:layout_marginLeft="3px">
+					
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:paddingRight="10px" 
+						android:text="@string/max_speed" android:textColor="#ffffff" android:textSize="14px" android:padding="5px"/>
+						
+					<TextView android:layout_height="wrap_content"
+						android:text="@string/no_info" android:textColor="#000000" android:textSize="20px" android:background="#ffffff" android:layout_width="fill_parent" android:padding="5px" android:id="@+id/view_max_speed_general"/>
+						
+				</LinearLayout>
+			
+			
+			</LinearLayout>
+			
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingRight="10px" 
+				android:text="@string/average_time_kilometer" android:textColor="#ffffff" android:textSize="14px" android:padding="5px" android:id="@+id/title_average_time_bykm"/>
+				
+			<TextView android:layout_height="wrap_content"
+				android:text="@string/no_info" android:textColor="#000000" android:textSize="20px" android:background="#ffffff" android:layout_width="fill_parent" android:padding="5px" android:id="@+id/average_time_bykm"/>
+			
+			
+			
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:padding="0px" android:background="#62797c" android:layout_marginTop="10px">
+			
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="5px" android:textSize="16px" android:textStyle="bold" android:text="@string/bykm" android:textColor="#d6e8ea" android:gravity="center_horizontal" android:layout_weight="1" android:id="@+id/title_bykm"/>
+		
+			</LinearLayout>
+			
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:padding="0px" android:layout_marginTop="3px">
+			
+					<ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/previous" android:id="@+id/viewdata_previous" android:layout_marginLeft="20px"></ImageButton><TextView android:layout_width="wrap_content"
+						android:textColor="#ffffff" android:padding="5px" android:text="1 kilometro" android:paddingRight="10px" android:textStyle="bold" android:layout_weight="1" android:id="@+id/kilometer_count" android:layout_height="fill_parent" android:gravity="center" android:textSize="17px"/>
+		
+			
+		<ImageButton android:src="@drawable/next" android:layout_height="wrap_content" android:scaleType="fitCenter" android:layout_width="wrap_content" android:id="@+id/viewdata_next" android:layout_marginRight="20px"></ImageButton>
+		</LinearLayout>
+		
+			<TextView android:layout_height="wrap_content"
+				android:text="@string/no_info" android:textColor="#000000" android:textSize="20px" android:background="#ffffff" android:layout_width="fill_parent" android:padding="5px" android:id="@+id/minutesbykm" android:layout_marginTop="8px"/>
+		
+			
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:padding="0px" android:layout_marginTop="5px">
+			
+				<LinearLayout android:orientation="vertical"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_weight="1" android:padding="0px" android:layout_marginRight="3px">
+					
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:paddingRight="10px" 
+						android:text="@string/average_speed" android:textColor="#ffffff" android:textSize="14px" android:padding="5px"/>
+						
+					<TextView android:layout_height="wrap_content"
+						android:text="@string/no_info" android:id="@+id/view_average_speed" android:textColor="#000000" android:textSize="20px" android:background="#ffffff" android:layout_width="fill_parent" android:padding="5px"/>
+				
+				</LinearLayout>
+		
+				<LinearLayout android:orientation="vertical"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_weight="1" android:padding="0px" android:layout_marginLeft="3px">
+					
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:paddingRight="10px" 
+						android:text="@string/max_speed" android:textColor="#ffffff" android:textSize="14px" android:padding="5px"/>
+						
+					<TextView android:layout_height="wrap_content"
+						android:text="@string/no_info" android:id="@+id/view_max_speed" android:textColor="#000000" android:textSize="20px" android:background="#ffffff" android:layout_width="fill_parent" android:padding="5px"/>
+						
+				</LinearLayout>
+			
+			
+			</LinearLayout>
+	
+		</LinearLayout>
+		
+	</ScrollView>
+
+</LinearLayout>

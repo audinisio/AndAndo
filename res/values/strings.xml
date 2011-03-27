@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<color name="bg_color">#768d91</color>
+
+    <string name="app_name">AndAndo</string>
+    <string name="walking">Walking</string>
+    <string name="car">Car</string>
+    <string name="bike">Bike</string>
+    <string name="motorcycle">Motorcycle</string>
+    <string name="other">Other</string>
+    <string name="sports">Sports</string>
+    <string name="hiking">Hiking</string>
+    <string name="skates">Skates</string>
+    <string name="skateboard">Skateboard</string>
+
+<!-- 1.4 -->
+
+    <string name="walking_txt">walk</string>
+    <string name="car_txt">car</string>
+    <string name="bike_txt">bike</string>
+    <string name="motorcycle_txt">motorcycle</string>
+    <string name="sports_txt">run</string>
+    <string name="hiking_txt">hiking</string>
+    <string name="skates_txt">skates</string>
+    <string name="skateboard_txt">skateboard</string>
+
+<string name="share_url">Just completed a %1$s %2$s with #AndAndo for #android. You can watch it here %3$s</string>
+
+<string name="sign_up">Sign up</string>
+
+<string name="directory_no_exist">The directory does not exist, please write another</string>
+
+<string name="directory_save">Directory stored correctly</string>
+
+<string name="keys_save">Keys stored correctly</string>
+
+<string name="directory">Directory</string>
+
+<string name="title_prf_path_save_routes">Where save routes</string>
+<string name="summary_prf_path_save_routes">Directory to save routes. For example, a directory DropBox</string>
+
+<string name="no_key_yourtrainings">Write your user and password of YourTrainings.com in preferences</string>
+
+<string name="on_the_web">On the web</string>
+
+<string name="route_no_web">The route has not been uploaded to YourTrainings.com</string>
+
+<string name="dialog_export_uploading_web">Uploading the web</string>
+
+<string name="title_prf_services">Services</string>
+<string name="title_prf_service_yourtrainings">YourTrainings.com info</string>
+<string name="summary_prf_service_yourtrainings">The name and password is required to use this service</string>
+
+<string name="username">Username</string>
+<string name="password">Password</string>
+
+<!-- 1.37 -->
+    
+<string name="alert_dialog_text_new_route">Name of the new route</string>
+<string name="create">Create</string>
+<string name="cancel">Cancel</string>
+<string name="description">Description</string>
+<string name="category">Category</string>
+<string name="group">Group</string>
+<string name="title">Title</string>
+<string name="save">Save</string>
+<string name="back">Back</string>
+<string name="ok">Accept</string>
+<string name="error_empty">There are some empty fields</string>
+<string name="no_routes">There aren\'t tracks recorded at the moment</string>
+<string name="chronometer_start">Start</string>
+<string name="chronometer_stop">Stop</string>
+<string name="order">Sort</string>
+<string name="type_order">Type</string>
+<string name="type_order_asc">Ascending</string>
+<string name="type_order_desc">Descending</string>
+
+<string name="route">Track</string>
+<string name="new_route">New track</string>
+<string name="preferences">Preferences</string>
+<string name="list_routes">Tracks list</string>
+<string name="gsp_state">GPS status</string>
+
+<string name="menu_share">Share track</string>
+<string name="menu_satellite">Satellite Mode</string>
+<string name="menu_traffic">Map Mode</string>
+<string name="menu_photo">Photo</string>
+<string name="menu_sound">Sound</string>
+<string name="menu_text">Text</string>
+<string name="error_gps">GPS is not active, do you want to activate now?</string>
+
+<string name="yes">Yes</string>
+<string name="exit">Exit</string>
+<string name="chronometer_back">Back</string>
+<string name="select_action">Select action</string>
+<string name="select_share_friends">Share with friends</string>
+<string name="select_write_sdcard">Write to SD Card</string>
+<string name="select_category">Select category</string>
+<string name="alert_dialog_cancel">Cancel</string>
+<string name="menu_edit">Edit</string>
+<string name="menu_play">Player</string>
+<string name="menu_back">Back</string>
+<string name="email_kml_subject">I would like to share a track with you</string>
+<string name="email_kml_body">I send this track created with AndAndo software since I think it may be interesting for you. You can find it in Google Earth</string>
+<string name="alert_dialog_geo_text">Enter text:</string>
+<string name="alert_dialog_ok">Accept</string>
+<string name="no">No</string>
+<string name="metres">meters</string>
+<string name="miles">miles</string>
+<string name="kilometres">km</string>
+<string name="minutes">minutes</string>
+<string name="seconds">seconds</string>
+<string name="and">and</string>
+<string name="of">of</string>
+<string name="title_question_delete">Delete</string>
+<string name="question_delete">Are you sure you want to delete this track?</string>
+<string name="menu_delete_all">Delete all</string>
+<string name="title_question_delete_all">Delete all</string>
+<string name="question_delete_all">Are you sure you want to delete all routes?</string>
+<string name="start">Start</string>
+<string name="end">End</string>
+<string name="alert_dialog_import">Select the file you want to import:</string>
+<string name="alert_dialog_restore">Select the file you want to restore:</string>
+<string name="alert_dialog_nofiles_import">Zip file does not exist in /sdcard/andando</string>
+<string name="alert_dialog_nofiles_restore">.bck file does not exist in /sdcard/andando</string>
+<string name="alert_dialog_filter">Search options:</string>
+<string name="alert_dialog_show_all">Show all</string>
+<string name="alert_dialog_order_name">By date</string>
+<string name="menu_filter">Filter</string>
+<string name="menu_backup">Backup</string>
+<string name="email_andando_body">I send this track created with AndAndo software since I think it may be interesting for you. You need AndAndo installed in your cellular, copy the file at /sdcard/andando and import it from the application.</string>
+<string name="attention">Warning</string>
+<string name="menu_view_info">View data</string>
+<string name="distance">Distance</string>
+<string name="speed">Speed</string>
+<string name="average_speed">Average speed</string>
+<string name="max_speed">Maximum speed</string>
+<string name="time">Time</string>
+<string name="route_name">Name of track</string>
+<string name="date">Date</string>
+<string name="hour">Hour</string>
+<string name="n_coordinates_route">Number of coordinates of the track</string>
+<string name="export_route">Route exported successfully: </string>
+<string name="menu_import">Import track</string>
+<string name="dialog_prf_time_gps">Time</string>
+<string name="title_prf_time_gps">Time record</string>
+<string name="summary_prf_time_gps">Minimum interval of time it takes to notify the state of the GPS</string>
+<string name="title_prf_gps">GPS Activity</string>
+<string name="dialog_prf_distance_gps">Distance</string>
+<string name="title_prf_distance_gps">Distance record</string>
+<string name="summary_prf_distance_gps">Distance traveled to notify the state of the GPS</string>
+<string name="title_prf_others">Other settings</string>
+<string name="title_prf_center">Center map</string>
+<string name="summary_prf_center">Center the map to find a new location</string>
+<string name="title_prf_start">Launch chronometer</string>
+<string name="summary_prf_start">Countdown start at the time to find the first location</string>
+<string name="title_prf_animate">Animating the map</string>
+<string name="summary_prf_animate">Start animation to move around the map</string>
+
+<string name="import_correctly">The import has been correct</string>
+<string name="import_error">There was an error in the import. Verify that the file is correct</string>
+
+<string name="backup_correctly">The backup has been correct</string>
+<string name="backup_error">There was an error in the backup. Please try again later</string>
+
+<string name="restore_correctly">The restore has been correct</string>
+<string name="restore_error">There was an error in the restore. Please try again later</string>
+
+<string name="marks">marks</string>
+<string name="format_date">yyyy-MM-dd (HH:mm:ss)</string>
+<string name="no_info">No data</string>
+<string name="distance_mark">Gap between distance marks</string>
+<string name="time_mark">Seconds between time marks</string>
+<string name="dialog_resources_mark">resources in the track</string>
+<string name="dialog_distance_mark">distance marks</string>
+<string name="dialog_time_mark">time marks</string>
+
+<string name="title_prf_marks">Marks at the track</string>
+<string name="title_prf_time_marks">Time between marks</string>
+<string name="summary_prf_time_marks">Default seconds existing between time marks</string>
+<string name="dialog_prf_time_marks">Select time</string>
+<string name="title_prf_distance_marks">Distance between marks</string>
+<string name="summary_prf_distance_marks">Default gap existing between distance marks</string>
+<string name="dialog_prf_distance_marks">Select distance</string>
+<string name="title_prf_vibrate_marks">Vibration Mode</string>
+<string name="summary_prf_vibrate_marks">The phone vibrates when you find a mark of time or distance</string>
+<string name="title_prf_notification_marks">Play sound</string>
+<string name="summary_prf_notification_marks">Default notification sound will be played when a mark is found</string>
+<string name="title_prf_units">Units</string>
+<string name="summary_prf_units">Default unit used in the application</string>
+<string name="dialog_prf_units">Select unit</string>
+
+<string name="notificacion_msg">Recording track</string>
+<string name="no_location">No location</string>
+<string name="back_sure">If you come back you will end the track. You can go to the desktop by pressing the HOME button and then return to the program from the status bar notification. Are you sure to exit?</string>
+<string name="dialog_export_exporting">Exporting...</string>
+<string name="dialog_export_preparing">Preparing export</string>
+<string name="dialog_export_cancel">Export canceled</string>
+<string name="dialog_export_creating_files">Creating files</string>
+<string name="dialog_export_packaging">Packaging</string>
+<string name="dialog_export_packaging_images">Packaging Images</string>
+<string name="dialog_export_finish">Process completed</string>
+<string name="dialog_export_no_finish">Problem upload the track. Please try again later</string>
+<string name="dialog_export_creating_kml">Creating KML</string>
+<string name="dialog_export_creating_gpx">Creating GPX</string>
+<string name="dialog_export_creating_xml">Creating XML</string>
+<string name="dialog_import_importing">Importing...</string>
+<string name="dialog_import_text">Importing track. This process may take a while.</string>
+
+<string name="dialog_backup_creating">Backup...</string>
+<string name="dialog_backup_text">Creating backup. This process may take a while.</string>
+
+<string name="dialog_restore_restoring">Restoring backup...</string>
+<string name="dialog_restore_text">Restoring backup. This process may take a while.</string>
+
+<string name="dialog_import_delete">Delete the file at the end of the process</string>
+<string name="dialog_write_default">Write subject and mail body</string>
+
+<string name="alert_dialog_text_simplify">Simplifying a track the number of nodes will be reduced to the half and the course may change. What do you want to do?</string>
+<string name="alert_dialog_show">Show</string>
+<string name="alert_dialog_simplify">Simplify</string>
+<string name="title_route_simplify">Simplified</string>
+<string name="dialog_simplify">Simplifying track</string>
+<string name="route_simplify">Simplified track successfully</string>
+<string name="dialog_simplify_simplifying">Simplifying...</string>
+
+<string name="image_recorded_successfully">Successfully recorded image</string>
+<string name="sound_recorded_successfully">Successfully recorded sound</string>
+<string name="text_recorded_successfully">Successfully recorded text</string>
+<string name="no_group">No group</string>
+
+<string name="alert_dialog_text_add_group">Name of group</string>
+<string name="alert_dialog_title_remove_group">Delete group</string>
+<string name="alert_dialog_text_remove_group">If you delete this group all tracks belonging to it will have no group. Are you sure you want to delete it?</string>
+<string name="no_remove_group">This group cannot be deleted</string>
+<string name="locations">points</string>
+
+<string name="today">Today</string>
+<string name="yesterday">Yesterday</string>
+<string name="two_days_ago">2 days ago</string>
+<string name="three_days_ago">3 days ago</string>
+
+<string name="position_date_day">2</string>
+<string name="position_date_month">1</string>
+<string name="position_date_year">0</string>
+<string name="separate_date">-</string>
+
+<string name="loading">Loading</string>
+<string name="loading_images">Loading images...</string>
+<string name="new_photo">New photo</string>
+
+<string name="title_kilometer">Kilometer</string>
+<string name="title_mile">Mile</string>
+<string name="general">General</string>
+<string name="bykm">Per kilometer</string>
+<string name="bymile">Per mile</string>
+<string name="average_time_kilometer">Average time per kilometer</string>
+<string name="average_time_mile">Average time per mile</string>
+<string name="last">Last</string>
+
+<string name="start_track">Start Track</string>
+<string name="pause">Pause</string>
+<string name="continued">Continue</string>
+<string name="finish">Finish</string>
+<string name="current_accuracy">Accuracy</string>
+<string name="finish_route">Track completed</string>
+<string name="title_prf_accuracy_gps">Accuracy</string>
+<string name="summary_prf_accuracy_gps">No save point with an accuracy greater than this</string>
+<string name="click_image_to_large">Click on image to enlarge</string>
+<string name="click_play_to_listen">Click the button to listen</string>
+<string name="accuracy_greater_than">Accuracy greater than</string>	
+
+<string name="route_start">Start the track</string>
+<string name="route_pause">Pause on the track</string>
+<string name="route_continue">Continue the track</string>
+<string name="route_stop">Complete track</string>	
+<string name="take_photo">To make a new photo click the MENU button</string>
+<string name="recalculate_rotals">Totals have been calculated correctly</string>
+
+<string name="title_prf_type_draw_route">How to redraw the line</string>
+<string name="summary_prf_type_draw_route">Set the form to redraw the line of the track on the map</string>	
+<string name="dialog_prf_type_draw_route">How to</string>
+<string name="original_route_image">The original track has a picture at this point</string>
+<string name="rides">rides</string>
+<string name="currently">Currently</string>
+<string name="preference_currently">You can change the minimum precision in preferences</string>
+
+<string name="lock">Lock</string>
+<string name="unlock">Unlock</string>
+
+<string name="title_prf_autolock">Auto lock</string>
+<string name="summary_prf_autolock">Set the form to redraw the line of the track on the map</string>	
+
+<string name="menu_gotostart">Go to start</string>
+
+<string name="charts">Charts</string>	
+
+<string name="altitude">Altitude</string>	
+
+<string name="altitude_distance">Altitude/Distance</string>	
+<string name="altitude_time">Altitude/Time</string>	
+<string name="speed_distance">Speed/Distance</string>	
+<string name="speed_time">Speed/Time</string>	
+
+<string name="my_location">My location</string>
+<string name="no_my_location">Not locale</string>
+
+<string name="average_altitude">Average altitude</string>
+
+<string name="position">Position</string>
+
+<string name="altidude_of_track">Altitude of the track</string>
+<string name="speed_of_track">Speed of the track</string>
+
+<string name="location_in_path">Location in the path</string>
+
+<string name="location_out_path">Location out the path</string>
+
+<string name="searching_gps">Searching GPS location</string>
+
+<string name="title_prf_mindistance_path">Minimum distance</string>
+<string name="summary_prf_mindistance_path">Minimum meters for you are on the track</string>
+
+<string name="location_out_path_text">up the road</string>
+
+<string name="location_in_path_text">after start</string>
+
+<string name="no_imagen_in_phone">The image has been erased from the phone</string>
+<string name="no_sound_in_phone">The sound has been erased from the phone</string>
+
+</resources>

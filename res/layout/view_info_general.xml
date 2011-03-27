@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/bg">
+
+	<ScrollView android:id="@+id/ScrollView01" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		
+		<LinearLayout
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+		
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingRight="10px" 
+				android:text="@string/route_name" android:textColor="#ffffff" android:textSize="14px" android:padding="5px"/>
+				
+			<TextView android:layout_height="wrap_content"
+				android:text="@string/no_info" android:id="@+id/view_name" android:textColor="#000000" android:textSize="20px" android:background="#ffffff" android:layout_width="fill_parent" android:padding="5px"/>
+		
+		
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:padding="0px">
+			
+				<LinearLayout android:orientation="vertical"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_weight="1" android:padding="0px" android:layout_marginRight="3px">
+					
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:paddingRight="10px" 
+						android:text="@string/date" android:textColor="#ffffff" android:textSize="14px" android:padding="5px"/>
+						
+					<TextView android:layout_height="wrap_content"
+						android:text="@string/no_info" android:id="@+id/view_date" android:textColor="#000000" android:textSize="20px" android:background="#ffffff" android:layout_width="fill_parent" android:padding="5px"/>
+				
+				</LinearLayout>
+		
+				<LinearLayout android:orientation="vertical"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_weight="1" android:padding="0px" android:layout_marginLeft="3px">
+					
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:paddingRight="10px" 
+						android:text="@string/hour" android:textColor="#ffffff" android:textSize="14px" android:padding="5px"/>
+						
+					<TextView android:layout_height="wrap_content"
+						android:text="@string/no_info" android:id="@+id/view_hour" android:textColor="#000000" android:textSize="20px" android:background="#ffffff" android:layout_width="fill_parent" android:padding="5px"/>
+						
+				</LinearLayout>
+			
+			</LinearLayout>
+		
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingRight="10px" 
+				android:text="@string/time" android:textColor="#ffffff" android:textSize="14px" android:padding="5px"/>
+				
+			<TextView android:layout_height="wrap_content"
+				android:text="@string/no_info" android:id="@+id/view_time" android:textColor="#000000" android:textSize="20px" android:background="#ffffff" android:layout_width="fill_parent" android:padding="5px"/>
+			
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingRight="10px" 
+				android:text="@string/distance" android:textColor="#ffffff" android:textSize="14px" android:padding="5px"/>
+				
+			<TextView android:layout_height="wrap_content"
+				android:text="@string/no_info" android:id="@+id/view_distance" android:textColor="#000000" android:textSize="20px" android:background="#ffffff" android:layout_width="fill_parent" android:padding="5px"/>
+			
+			
+			
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingRight="10px" 
+				android:text="@string/n_coordinates_route" android:textColor="#ffffff" android:textSize="14px" android:padding="5px"/>
+				
+			<TextView android:layout_height="wrap_content"
+				android:text="@string/no_info" android:id="@+id/view_coordinates" android:textColor="#000000" android:textSize="20px" android:background="#ffffff" android:layout_width="fill_parent" android:padding="5px"/>
+			
+		</LinearLayout>
+		
+	</ScrollView>
+	
+</LinearLayout>

@@ -55,10 +55,7 @@ public class Utils {
 	
 	static private String mPackage = "com.javielinux.andando";
 	
-	static public String KEY_GOOGLE_MAPS = "0B8Rsd6rLL0ngGNfVVxkYfqECjcDuJ9UhrfOETg";
-	// casa 0B8Rsd6rLL0kmEOxm0IZj5GlkDblyNo3azTdkBQ
-	// trabajo 0B8Rsd6rLL0nBGn2zBpxarTShsUKPOgUjrOXyJg
-	// firma 0B8Rsd6rLL0ngGNfVVxkYfqECjcDuJ9UhrfOETg
+	static public String KEY_GOOGLE_MAPS = "KEY_MAPS";
 	
 	
 	static public Location getLastLocation(Context cnt) {
